@@ -35,6 +35,10 @@ Like the previous one the focus was to complete it in a day, not on clean code, 
 
 ![Live Site](https://hangman-game-mubashir.surge.sh/)
 
+# Code
+
+![Github](https://github.com/MubashirArifRandhawa/One-Project-Multiple-Languages)
+
 # Todos
 
 <ul>
@@ -46,3 +50,5 @@ Like the previous one the focus was to complete it in a day, not on clean code, 
 # Author
 
 Mubashir Arif Randhawa
+![Twitter](https://twitter.com/Mubashi19311813)
+![Github](https://github.com/MubashirArifRandhawa)
