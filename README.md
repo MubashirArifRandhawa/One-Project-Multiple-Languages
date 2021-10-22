@@ -8,16 +8,20 @@ Game has one word now.
 
 ### Languages Used:
 
-Python (Console based App)
-C++ (Console based App)
-JavaScript (Website)
+<ol>
+    <li>Python (Console based App)</li>
+    <li>C++ (Console based App)</li>
+    <li>JavaScript (Website)</li>
+</ol>
 
 ### Todo
 
-Will make this with Angular.js
-Will make this with Vue.js
-Will link a file with the above so that word appear randomly
-Will do OOP based coding for both as well
+<ul>
+    <li>Will make this with Angular.js</li>
+    <li>Will make this with Vue.js</li>
+    <li>Will link a file with the above so that word appear randomly</li>
+    <li>Will do OOP based coding for both as well</li>
+</ul>
 
 ### Time Taken
 
