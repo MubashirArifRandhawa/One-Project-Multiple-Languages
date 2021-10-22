@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu__section" id="menu">
+      <div class="menu__section_options">
+        <button id="game">Play Game</button>
+        <button id="instructions">See Instruction</button>
+      </div>
+    </div>
+    <div class="wrapper-outer disp_hide" id="game_screen">
+      <header>
+        <div class="title">
+          <h2>Hangman Game</h2>
+        </div>
+        <div class="lives">
+          <h2>Lives:</h2>
+          <h3 id="lives">5</h3>
+        </div>
+      </header>
+      <div class="container">
+        <div class="user__info">
+          <div class="person__wrapper">
+            <div class="hanger">
+              <div class="pole"></div>
+              <div class="bar"></div>
+            </div>
+            <div class="hangman">
+              <div class="hanged"></div>
+              <div class="upper">
+                <div class="head disp_hide" id="head"></div>
+              </div>
+              <div class="torso">
+                <div class="left disp_hide" id="left_arm"></div>
+                <div class="middle disp_hide" id="mid_arms"></div>
+                <div class="right disp_hide" id="right_arm"></div>
+              </div>
+              <div class="legs">
+                <div class="left disp_hide" id="left_leg"></div>
+                <div class="middle disp_hide" id="mid_legs"></div>
+                <div class="right disp_hide" id="right_leg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="guess__word">
+          <h3>Word has <span id="length"></span> Characters</h3>
+          <h2 id="show_word"></h2>
+        </div>
+        <div class="input">
+          <form action="javascript:;">
+            <input type="text" placeholder="Enter your guess" />
+            <button id="guess">Guess</button>
+          </form>
+          <div class="error">
+            <p id="show_error"></p>
+            <h4 id="word_disp" style="text-align: center"></h4>
+          </div>
+          <div class="success disp_hide">
+            <p id="show_message"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal disp_hide" id="modal">
+      <button class="close" id="close">X</button>
+      <div class="content" id="content__display"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

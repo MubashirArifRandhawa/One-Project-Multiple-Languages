@@ -10,10 +10,10 @@ Game has one word now.
 
 Python (Console based App)
 C++ (Console based App)
+JavaScript (Website)
 
 ### Todo
 
-Will make this with Vanilla JS
 Will make this with Angular.js
 Will make this with Vue.js
 Will link a file with the above so that word appear randomly
@@ -21,4 +21,4 @@ Will do OOP based coding for both as well
 
 ### Time Taken
 
-Approx. 3 hours
+Approx. 6-8 hours

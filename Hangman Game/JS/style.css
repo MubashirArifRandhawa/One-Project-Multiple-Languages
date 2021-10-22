@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("./double-bubble-outline.png");
+}
+.menu__section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu__section_options {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.menu__section_options button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  background-color: #fda65d;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  padding: 0.25em 0.75em;
+  min-width: 10ch;
+  min-height: 44px;
+  text-align: center;
+  line-height: 1.1;
+  font-size: 1.2rem;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.4);
+}
+.menu__section_options button:nth-child(even) {
+  background: #fef9ef;
+  color: #444343;
+}
+.menu__section_options button:hover {
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.8);
+  transition: all 250ms linear;
+}
+.wrapper-outer {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  grid-template-rows: 0.6fr 6fr;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 3fr 0.5fr 1fr;
+  height: 600px;
+}
+header {
+  color: #fda65d;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.lives h3,
+.lives h4 {
+  display: grid;
+  place-items: center;
+}
+.user__info {
+  display: flex;
+}
+.person__wrapper {
+  flex: 1;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+.hanger {
+  position: relative;
+}
+.pole {
+  width: 20px;
+  height: 250px;
+  background: #e26a2c;
+  margin-right: 2rem;
+  position: relative;
+}
+.hangman {
+  margin-left: 45px;
+}
+.bar {
+  position: absolute;
+  background: #e26a2c;
+  width: 15px;
+  height: 100px;
+  top: -42px;
+  left: 60px;
+  transform: rotate(90deg);
+}
+.hanged {
+  width: 10px;
+  height: 55px;
+  background: #e26a2c;
+  position: relative;
+  left: 10px;
+}
+
+.upper {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  width: 30px;
+  height: 30px;
+  background-color: #ff8243;
+  border-radius: 50%;
+}
+
+.torso,
+.legs {
+  width: 60px;
+  display: flex;
+}
+.torso {
+  height: 5px;
+}
+.legs {
+  height: 5px;
+}
+.left,
+.right,
+.middle {
+  width: 10px;
+  height: 80px;
+  background-color: #ff8243;
+}
+.left {
+  transform: rotate(16deg);
+  width: 10px;
+}
+.right {
+  transform: rotate(-16deg);
+  width: 10px;
+}
+.middle {
+  height: 100px;
+}
+.legs .left,
+.legs .right {
+  position: relative;
+  top: 80px;
+}
+.guess__word {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.input {
+  display: grid;
+  place-items: center;
+}
+form {
+  display: flex;
+  gap: 1rem;
+}
+.input input {
+  width: 300px;
+  height: 44px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+.input button {
+  padding: 0.75em 0.25em;
+  background: transparent;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: #f0b857;
+  font-size: 1.2rem;
+  min-width: 8ch;
+  height: 44px;
+  border-radius: 5px;
+  color: rgb(19, 19, 19);
+  cursor: pointer;
+}
+.input button:hover {
+  box-shadow: 4px 4px 10px 5px #af7d27;
+  transition: all 250ms linear;
+}
+.error,
+.success {
+  padding: 10px 0;
+  color: rgb(243, 59, 59);
+  font-size: 20px;
+  margin: 5px 0;
+  text-align: left;
+  width: 100%;
+}
+.success {
+  color: rgb(40, 141, 40);
+}
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: grid;
+  place-items: center;
+}
+.close {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translateX(-100%);
+  cursor: pointer;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.content {
+  min-width: 600px;
+  min-height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+ol li {
+  font-size: 1.2rem;
+}
+
+.disp_hide {
+  display: none;
+}
