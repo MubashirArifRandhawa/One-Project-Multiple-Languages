@@ -138,7 +138,6 @@ function validateGuess(e) {
       showWord.textContent = show.toUpperCase();
       if (show.toLowerCase() === wordToBeGuessed.toLocaleLowerCase()) {
         modal.classList.remove("disp_hide");
-
         contentDisplay.innerHTML = `<h1 > You Won! </h1> <p style='text-align:center'> Word was indeed ${wordToBeGuessed.toUpperCase()}</p> <br> <br> <div class="menu__section_options">
               <button id="again" onClick='reloadPage()'>Play Again</button>
               <button id="menu" onClick='goToMenu()'>Menu</button>
@@ -150,6 +149,7 @@ function validateGuess(e) {
       hangmanShowWhenWrong(totalLives);
       livesText.textContent = totalLives;
       if (totalLives == 0) {
+        resetEverything();
         modal.classList.remove("disp_hide");
 
         contentDisplay.innerHTML = `<h1> You Lost! </h1> <p style='text-align:center'> Word was ${wordToBeGuessed.toUpperCase()}</p> <br> <br> <div class="menu__section_options">
