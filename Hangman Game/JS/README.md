@@ -33,7 +33,7 @@ Like the previous one the focus was to complete it in a day, not on clean code, 
 
 # Live Site
 
-![Live Site](https://hangman-game-mubashir.surge.sh/)
+(https://hangman-game-mubashir.surge.sh/)
 
 # Code
 
