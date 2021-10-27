@@ -1,0 +1,89 @@
+.single-todo {
+  color: var(--unchecked-complete);
+  min-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  position: relative;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 6px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.single-todo:hover {
+  opacity: 1;
+  transition: all 250ms linear;
+  border: 1px solid rgb(138, 138, 138);
+  box-shadow: 3px 3px 0px 0 rgba(0, 0, 0, 0.4);
+}
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.completed {
+  background-color: var(--unchecked-complete);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  z-index: 100;
+  cursor: pointer;
+}
+.completed:hover {
+  background-color: var(--unchecked-complete-hover);
+  transform: scale(1.2);
+  transition: all 500ms;
+}
+.delete-image {
+  width: 45px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.checked {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--backgruond-color);
+}
+.delete-image:hover {
+  animation: shake 1s linear;
+}
+.completed-task {
+  position: relative;
+  flex: 5;
+  height: 100%;
+  text-decoration: line-through;
+  color: var(--text-color);
+}
+
+.remove-task {
+  position: relative;
+  flex: 5;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(-30deg) scale(1.2);
+  }
+  75% {
+    transform: rotate(30deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

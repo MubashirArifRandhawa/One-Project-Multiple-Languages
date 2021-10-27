@@ -34,7 +34,7 @@
 
 ## Live Site
 
-![Live Site](https://todo-app-vanilla-javascript.surge.sh/)
+(https://todo-app-vanilla-javascript.surge.sh/)
 
 ## Github
 

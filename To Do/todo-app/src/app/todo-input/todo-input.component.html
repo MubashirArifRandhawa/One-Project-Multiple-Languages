@@ -1,0 +1,10 @@
+<div class="todo__input">
+  <input
+    type="text"
+    #todo
+    (keyup)="addTodo(todo, $event)"
+    placeholder="Enter the todo..."
+    id="form"
+  />
+  <small class="error" id="error"></small>
+</div>

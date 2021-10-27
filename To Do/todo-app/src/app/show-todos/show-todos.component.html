@@ -1,0 +1,26 @@
+<div class="show__all_todos" id="all_todos" *ngFor="let todo of todos">
+  <div [id]="todo.id" #todo class="single-todo">
+    <div>
+      <!-- [ngClass]="{todo.completed ? 'completed-task' : 'remove-task'}" -->
+      <p
+        class=""
+        #task
+        [ngClass]="{
+          'completed-task': todo.completed,
+          'remove-task': !todo.completed
+        }"
+      >
+        {{ todo.todo }}
+      </p>
+    </div>
+    <div class="options">
+      <div class="completed" (click)="completed($event, task)"></div>
+      <img
+        src="../../assets/delete.png"
+        (click)="delete(todo.id)"
+        class="delete-image"
+        alt=""
+      />
+    </div>
+  </div>
+</div>

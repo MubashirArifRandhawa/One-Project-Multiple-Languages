@@ -3,8 +3,8 @@ const today = document.querySelector("#today");
 const allTodos = document.querySelector("#all_todos");
 const completedTask = document.querySelector("#completed-task") || null;
 const deleteTask = document.querySelector("#delete-task") || null;
-const todo = JSON.parse(localStorage.getItem("todos")) || null;
 const error = document.querySelector("#error");
+let todo = JSON.parse(localStorage.getItem("todos")) || null;
 
 // Todo Component
 function Todo(value = "John Doe", id = null, todos = null, completed = null) {
@@ -110,7 +110,9 @@ function addTodo(event) {
       return;
     }
     const { outerDiv, todoId } = Todo(value);
-
+    if (todo === null) {
+      todo = [];
+    }
     todo.push({
       id: todoId,
       task: value,

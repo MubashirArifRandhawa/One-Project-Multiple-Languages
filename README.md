@@ -9,9 +9,9 @@ Game has one word now.
 ### Languages Used:
 
 <ol>
-    <li>Python (Console based App)</li>
-    <li>C++ (Console based App)</li>
-    <li>JavaScript (Website)</li>
+    <li><u>Python (Console based App) </u></li>
+    <li><u>C++ (Console based App)</u></li>
+    <li><u>JavaScript (Website)</u></li>
 </ol>
 
 ### Todo
@@ -35,17 +35,20 @@ This is the part of the project based learning I started to keep my Programming 
 This app is fully responsive and is made in pure JS/ vanilla JS and took me about 8 hours or so to design this and make this into an app.
 I tried to code it keeping in mind the objective of completing it in a day, So, code might not be that good
 
-### Languages Used:
+### Languages And FrameWorks Used:
 
 <ol>
     <li>Java Script</li>
+    <li>Angular</li>
 </ol>
 
 ### Todo
 
 <ul>
-    <li>Will make this with Angular.js</li>
+    <li><u>Will make this with Angular.js</u> </li>
     <li>Will make this with Vue.js</li>
+    <li>Will make console app in C++ </li>
+    <li>Will make console app in Python </li>
 </ul>
 
 ### Time Taken
