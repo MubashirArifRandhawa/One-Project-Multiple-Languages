@@ -37,7 +37,7 @@
 
 ## Live Site
 
-(https://http://todo-app-angular.surge.sh//)
+(https://todo-app-angular.surge.sh//)
 
 ## Github
 
