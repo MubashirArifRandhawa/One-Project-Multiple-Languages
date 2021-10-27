@@ -45,7 +45,6 @@ I tried to code it keeping in mind the objective of completing it in a day, So, 
 ### Todo
 
 <ul>
-    <li><u>Will make this with Angular.js</u> </li>
     <li>Will make this with Vue.js</li>
     <li>Will make console app in C++ </li>
     <li>Will make console app in Python </li>
