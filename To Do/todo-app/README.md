@@ -1,27 +1,44 @@
-# TodoApp
+# Todo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+<p>
+    This is the part of the project based learning I started to keep my Programming knowledege fresh that is "1 Project Multiple Languages" 
+</p>
+<p>
+    This app is fully responsive and is made on Angular and took me about 5 hours or so to design this and make this into an app. 
+</p>
+<p>
+    I tried to code it keeping in mind the objective of completing it in a day, So, code might not be that good
+</p>
 
-## Development server
+## Concepts Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### CSS
 
-## Code scaffolding
+<ul>
+    <li>Flex Box</li>
+    <li>Grid</li>
+</ul>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### JS
 
-## Build
+<ul>
+    <li>Local Storage</li>
+    <li>Date Object</li>
+    <li>Higher Order Functions</li>
+    <li>Services</li>
+    <li>Components</li>
+    <li>Reusable Components</li>
+</ul>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Screenshots
 
-## Running unit tests
+![Desktop Design](./screenshots/Desktop.png)
+![Mobile Design](./screenshots/Mobile.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Live Site
 
-## Running end-to-end tests
+(https://http://todo-app-angular.surge.sh//)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Github
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Git hub](https://github.com/MubashirArifRandhawa/One-Project-Multiple-Languages)
