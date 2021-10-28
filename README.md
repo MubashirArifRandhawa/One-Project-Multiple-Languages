@@ -40,12 +40,12 @@ I tried to code it keeping in mind the objective of completing it in a day, So, 
 <ol>
     <li>Java Script</li>
     <li>Angular</li>
+    <li>Vue</li>
 </ol>
 
 ### Todo
 
 <ul>
-    <li>Will make this with Vue.js</li>
     <li>Will make console app in C++ </li>
     <li>Will make console app in Python </li>
 </ul>
